@@ -1,0 +1,94 @@
+body{
+    background: rgba(0, 0, 0, 0.600) url("../foto/backround.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    padding: 0 30px;
+}
+
+.menu li {
+    padding: 3px 25px;
+}
+
+nav .hal-name {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+nav .hal-name a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .menu li {
+    list-style: none;
+    padding: 10px 50px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+nav .menu li:hover {
+    background-color: black;
+}
+
+nav .menu li a:hover {   
+    color: red;
+}
+
+nav .menu .dropdown {
+    display: none;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+    background-color:  rgb(27, 27, 27);
+    position: absolute;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.500);
+}
+
+.ending .table-ending {
+    margin-left: 200px;
+}
+
+.ending .table-ending tr th .hd1 {
+    color: white;
+    font-size: 25;
+}
+
+.ending .table-ending tr th a {
+    text-decoration: none;
+    color: red;
+}
+
+.ending .table-ending tr .data1 {
+    color: white;
+    text-align: left;
+    font-size: 12;
+    font-weight: 50;
+}
+
+.ending .table-ending tr .info-button a:hover {
+    color: white;
+}

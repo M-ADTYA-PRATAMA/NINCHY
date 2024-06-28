@@ -1,0 +1,368 @@
+body{
+    background: rgba(0, 0, 0, 0.700) url("foto/backround.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    padding: 0 30px;
+}
+
+.menu li {
+    padding: 3px 25px;
+}
+
+nav .hal-name {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+nav .hal-name a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .menu li {
+    list-style: none;
+    padding: 10px 50px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+nav .menu li:hover {
+    background-color: black;
+}
+
+nav .menu li a:hover {
+    color: red;
+}
+
+nav .menu .dropdown {
+    display: none;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+    background-color:  rgb(27, 27, 27);
+    position: absolute;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.500);
+}
+
+.banner {
+    margin: 150px auto;
+    width: 60%;
+}
+
+.welcome-banner {
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+}
+.teks {
+    word-spacing: 10px;
+}
+
+.teks h2 {
+    color: red;
+    font-size: 40;
+}
+
+.teks p {
+    color: white;
+    font-size: 20;
+}
+
+.hru {
+    width: 60%;
+}
+
+.bnr1 {
+    width: 100%;
+    padding: 20x; 
+    margin: 20px 0px;
+}
+
+.agent{
+    padding: 100px;
+    color: transparent;
+    -webkit-text-stroke: 3px red;
+    margin-left: 50px;
+    font-size: 100;
+    font-weight: bold;
+    position: relative;
+}
+
+.agent::before {
+    content: "AGENT VALORANT";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    letter-spacing: 0px;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    color: red;
+    transition: 0.5s ease-in-out;
+}
+
+.agent:hover::before {   
+    width: 65%;
+    filter: drop-shadow(0 0 25px red);
+}
+
+.branda-pic {
+    margin: 20px 50px;
+    padding: 200px 0;
+    width: 90%;
+}
+
+.pic {
+    max-width: 600px;
+    float: right;
+    border: 2px solid red;
+    margin: 20px;
+}
+
+.teks-jett a { 
+    text-decoration: none;
+    color: gray;
+    font-size: 50;
+    font-weight: 1000;
+    margin-left: 580px;
+}
+
+.teks-jett a::before {
+    content: "JETT";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    letter-spacing: 0px;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    color: aqua;
+    transition: 0.5s ease-in-out;
+}
+
+.teks-jett a:hover::before {   
+    width: 9.5%;
+    filter: drop-shadow(0 0 25px aqua);
+}
+
+.teks-jett p {
+    color: white;
+    font-size: 20;
+    text-align: right;
+}
+
+.hr1 {
+    width: 60%;
+    float: left;
+}
+
+.branda-pic-1 {
+    margin: 100px 50px;
+    padding: 120px 50px;
+    width: 90%;
+}
+
+.pic-1 {
+    width: 40%;
+    float: left;
+    margin: 20px;
+    border: 2px solid red;
+}
+
+.teks-neon a {
+    text-decoration: none;
+    color: gray;
+    font-size: 50;
+    margin-right: 590px;
+    font-weight: 1000;
+}
+
+.teks-neon a::before {
+    content: "NEON";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    letter-spacing: 0px;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    color: blue;
+    transition: 0.5s ease-in-out;
+}
+
+.teks-neon a:hover::before {   
+    width: 10.5%;
+    filter: drop-shadow(0 0 25px blue);
+}
+
+.teks-neon p {
+    color: white;
+    font-size: 20;
+    text-align: left;
+}
+
+.hr2 {
+    width: 60%;
+    float: right;
+}
+
+.branda-pic-2 {
+    margin: 100px 50px;
+    padding: 120px 0;
+    width: 90%;
+}
+
+.pic-2 {
+    width: 40%;
+    float: right;
+    margin: 20px;
+    border: 2px solid red;
+}
+
+.teks-reyna a {
+    text-decoration: none;
+    color: gray;
+    font-size: 50;
+    font-weight: 1000;
+    text-align: right;
+    margin-left: 580px;
+}
+
+.teks-reyna a::before {
+    content: "REYNA";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    letter-spacing: 0px;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    color: rgb(255, 0, 255);
+    transition: 0.5s ease-in-out;
+}
+
+.teks-reyna a:hover::before {   
+    width: 12.5%;
+    filter: drop-shadow(0 0 25px rgb(255, 0, 255));
+}
+
+.teks-reyna p {
+    color: white;
+    font-size: 20;
+    text-align: right;
+}
+
+.hr3 {
+    width: 60%;
+    float: left;
+}
+
+.branda-pic-3 {
+    margin: 100px 50px;
+    padding: 120px 0;
+    width: 90%;
+}
+
+.pic-3 {
+    width: 40%;
+    float: left;
+    margin: 20px;
+    border: 2px solid red;
+}
+
+.teks-omen a {
+    text-decoration: none;
+    color: gray;
+    font-size: 50;
+    font-weight: 1000;
+    margin-right: 580px;
+}
+
+.teks-omen a::before {
+    content: "OMEN";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    letter-spacing: 0px;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    color: rgb(0, 140, 255);
+    transition: 0.5s ease-in-out;
+}
+
+.teks-omen a:hover::before {   
+    width: 11%;
+    filter: drop-shadow(0 0 25px rgb(0, 140, 255))
+}
+
+.teks-omen p {
+    color: white;
+    font-size: 20;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ending .table-ending {
+    margin-left: 200px;
+}
+
+.ending .table-ending tr th .hd1 {
+    color: white;
+    font-size: 25;
+}
+
+.ending .table-ending tr th a {
+    text-decoration: none;
+    color: red;
+}
+
+.ending .table-ending tr .data1 {
+    color: white;
+    text-align: left;
+    font-size: 12;
+    font-weight: 50;
+}
+
+.ending .table-ending tr .info-button a:hover {
+    color: white;
+}
